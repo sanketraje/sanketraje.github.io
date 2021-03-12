@@ -1,0 +1,296 @@
+.header
+{
+    background-image: url('bg_img.jpg') !important;
+    background-repeat: no-repeat !important; 
+    background-size: cover;
+}
+
+.hii
+{
+    background-image: url('bg_img.jpg') !important;
+    background-repeat: no-repeat !important; 
+    background-size: cover;
+}
+
+.icon-bar
+{
+    background-color: darkorange;
+    color: darkorange;
+}
+
+.font-head
+{
+    font-size: 30px;
+    font-weight: bolder;
+    color: black;
+}
+
+.font
+{
+    font-size: 20px;
+    font-weight: bolder;
+    color: black;
+}
+
+.heading
+{
+    font-size: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: italic;
+}
+
+.para
+{
+    font-size: 20px;
+    font-style: normal;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.para1
+{
+    font-size: 15px;
+    font-style: normal;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:red;
+}
+   
+.p-image
+{
+    height: 300px;
+    width: 500px;
+}
+
+.a-image
+{
+    height: 410px;
+    width: 600px;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+  
+li {
+    float: right;
+    color: #cccccc;
+}
+  
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+  
+li a:hover {
+    background-color: #111;
+}
+.firsttable {
+    width: 70%;
+    height: 10%;
+    border-collapse: collapse;
+    /* border: 1px solid rgb(102, 12, 12); */
+    border-radius: 20px;
+    border-width: 5px;
+  }
+
+.footer-main{
+    padding: 70px 0px;
+    background: #202020;
+}
+.footer-widget h4 {
+    color: #ffffff;
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+    position: static;
+    font-weight: 700;
+}
+.footer-widget h4::before {
+    /* border-bottom: 3px solid #d33b33; */
+    content: "";
+    height: 3px;
+    width: 100%;
+    position: absolute;
+    bottom: 3px;
+    left: 0px;
+}
+.footer-widget p {
+    color: #cccccc;
+    font-weight: 400;
+    font-size: 14px;
+    padding-bottom: 20px;
+}
+.footer-widget ul{
+    display: inline-block;
+}
+.footer-widget ul li {
+    float: left;
+    margin-right: 5px;
+}
+.footer-widget ul li a {
+    color: #ffffff;
+    display: inline-block;
+    width: 36px;
+    height: 36px;
+    border: 2px solid #ffffff;
+    text-align: center;
+    line-height: 32px;
+}
+.footer-link{
+}
+.footer-link h4{
+    color: #ffffff;
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+    position: static;
+    font-weight: 700;
+}
+.footer-link h4::before {
+    /* border-bottom: 3px solid #d33b33; */
+    content: "";
+    height: 3px;
+    width: 100%;
+    position: absolute;
+    bottom: 3px;
+    left: 0px;
+}
+.footer-link ul li {
+    margin-right: 5px;
+}
+
+
+.footer-link ul li a:hover::before {
+    left: 5px;
+}
+
+.footer-link-contact h4{
+    color: #ffffff;
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+    position:static;
+    font-weight: 700;
+}
+.footer-link-contact h4::before {
+    /* border-bottom: 3px solid #d33b33; */
+    content: "";
+    height: 3px;
+    width: 100%;
+    position: static;
+    bottom: 3px;
+    left: 0px;
+}
+.footer-link-contact ul li{
+    margin-bottom: 12px;
+}
+.footer-link-contact ul li i{
+    position: absolute;
+    left: 0;
+    top: 5px;
+    padding-right: 6px;
+}
+.footer-link-contact ul li p{
+    padding-left: 25px;
+    color: #cccccc;
+    position:static;
+}
+.footer-link-contact ul li p{
+    font-size: 16px;
+    color: #cccccc;
+    font-weight: 300;
+    padding-right: 16px;
+    line-height: 24px;
+}
+.footer-link-contact ul li p a{
+    color: #cccccc;
+}
+
+/* Sanket CSS */
+.abc{
+    background-image: url('hall.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: -19px;
+}
+ 
+.head{
+    text-align: center;
+    /* background-color: rgb(228, 193, 106); */
+    background-color: black;
+    color: white;
+    width: 400px;
+    margin-top: 2.5%;
+    margin-left: 36%;
+    border-radius: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+.head-2{
+    background-color: black;
+    width: 150px;
+    color: white;
+    border-radius: 10px;
+    padding: 1%;
+    font-family: 'Times New Roman', Times, serif;  
+}
+
+ .add{
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    font-weight: 550;
+    background-color: white;
+    width: 250px;
+    border-radius: 6%;
+}  
+
+.btnSubmit{
+border: none;
+border-radius: 1.5rem;
+padding: 1%;
+width: 15%;
+cursor: pointer;
+background-color:black;
+color:white;
+text-align: center;
+font-weight: 700;
+margin-left: 42%;  
+font-size: large; 
+}
+
+label{
+  color:white;
+  font-weight: 600;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: x-large;
+  /* background-color:rgb(240, 174, 51);
+  width: fit-content;
+  border-radius: 8%; */
+}
+
+.form-content{
+padding: 5%;
+margin-bottom: 5%;
+}
+
+.register{
+border-radius: 15px;
+height: 40px;
+background-color: #f5f8fa!important;
+}
+
+span{
+color:orangered;
+}
+
